@@ -8,5 +8,5 @@ steps:
   args: [ 'push', 'us-central1-docker.pkg.dev/stcbase/stcdatadev/mysql-nodejs-rest-api-node-server:${SHORT_SHA}']
 
 # Store images in Google Artifact Registry
-imges:
+images:
 - us-central1-docker.pkg.dev/stcbase/stcdatadev/mysql-nodejs-rest-api-node-server:${SHORT_SHA}
